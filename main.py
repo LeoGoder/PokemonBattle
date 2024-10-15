@@ -43,6 +43,7 @@ while game == True:
   elif PokemonClassP2.actualpv <= 0:
      game = False
      print(PokemonClassP2.name + " a perdu ! ")
+     print('test')
 
   
   

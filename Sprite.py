@@ -1,4 +1,5 @@
 PokemonList = ["shinx", "charmender"]
+print("test2")
 
 class Shinx():
     name = "shinx"

@@ -1,10 +1,18 @@
-PokemonList = ["shinx", "charmender"]
-print("test2")
 
 class Shinx():
     name = "shinx"
-    actualpv = 150
-    maxpv = 150
+    actualpv = 45
+    maxpv = 45
+    attack = 65
+    Defense = 34
+    spAttack = 40
+    spDefense = 34
+    level = 50
+    # Moove set of the pokemon
+    voltswitch = ["Electric", 70, "special"]
+    wildcharge = ["Electric", 90, "physical"]
+    thief = ["Dark", 60, "physical"]
+    firefang = ["Fire", 65, "physical"]
     spriteBack ="""                                                                        
                                                                              
                                                                                                     
@@ -66,8 +74,13 @@ class Shinx():
 
 class Charmender():
     name = "charmender"
-    actualpv = 110
-    maxpv = 110
+    actualpv = 150
+    maxpv = 45
+    attack = 65
+    Defense = 34
+    spAttack = 40
+    spDefense = 34
+    level = 50
     spriteBack = """"                                                                          
                                                       ▓▓▓▓▓▓                                        
                                                    ▓▓▒▒▒▒▒▒▒▒▒▓                                     
